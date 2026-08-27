@@ -1,0 +1,121 @@
+{
+  "authority_boundary": "This receipt verifies a local case card. It cannot revive a claim, clear private-first, publish, mail, commit, or push.",
+  "case_id": "PHY-03",
+  "checks": {
+    "core_matches_live_ledger": "PASS",
+    "declared_source_hashes": "PASS",
+    "frozen_live_file_and_ledger": "PASS",
+    "governed_annotations": "PASS",
+    "live_g23_closeouts": "PASS_OR_NOT_APPLICABLE",
+    "private_first_public_gate": "NOT_TRIGGERED",
+    "semantic_continuity": "V1_ACCEPTED_UNCHANGED"
+  },
+  "claim_authority": "NONE",
+  "decision_reasons": [
+    "The case stayed byte-identical to its accepted V1 card and all current custody checks pass."
+  ],
+  "disposition": "POSTABLE_AS_COLD_CASE",
+  "public_catalog_eligible": true,
+  "receipt_sha256": "a55e8fe12d44a87b409bfa4455307db41fca7f6f919289898c5a109ff635a208",
+  "route_id": "COLD_CASE_PIPELINE_CURRENT_INDEX_REVERIFICATION_V3",
+  "schema": "aletheia.cold-case-live-verification.v3",
+  "source_bindings": {
+    "case_file": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/cases/COLD_CASE_PHY-03.md",
+    "case_file_sha256": "ff9e3603d1b0e5b2035d85ce92fafdb7b96dba9eac2b49cd0036b18e4d6cf1eb",
+    "declared_sources": [
+      {
+        "declared_sha256": "3e1aadfa78fe253eb5c01ee8681d3381e09c2ed6f981963e66c6886210a199e6",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "3e1aadfa78fe253eb5c01ee8681d3381e09c2ed6f981963e66c6886210a199e6",
+        "path": "/Users/bo/data/adp/investigations/earthquake_magnitude_ordering_2026-08-03/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "9dd92dedb0a875a0c73ba79489ef43cf1be5a9e81fcdc4211b0de0c07956c5e6",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "9dd92dedb0a875a0c73ba79489ef43cf1be5a9e81fcdc4211b0de0c07956c5e6",
+        "path": "/Users/bo/data/adp/investigations/earthquake_origin_stratification_2026-08-03/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "5533793a8e165591ba572e070f227dd99270b2032a395e33af2e7ad1c39565ba",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "5533793a8e165591ba572e070f227dd99270b2032a395e33af2e7ad1c39565ba",
+        "path": "/Users/bo/data/adp/investigations/earthquake_precursor_resolution_2026-08-06/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "a605b861f0c8e429e129f164b05fe6f7928c58f380f1c0b6b6afed6da2644cc6",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "a605b861f0c8e429e129f164b05fe6f7928c58f380f1c0b6b6afed6da2644cc6",
+        "path": "/Users/bo/data/adp/investigations/earthquake_precursor_revision_2026-08-06/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "6db17c2eda31d30fa992861d377bda231b8f4d7a00cd7f49311c225e01071cfc",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "6db17c2eda31d30fa992861d377bda231b8f4d7a00cd7f49311c225e01071cfc",
+        "path": "/Users/bo/data/adp/investigations/physics_same_event_five_2026-08-16_v1/01_routes/r1_depth/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "38e3e5661cd3d17ec208de460cb2d6d2567a89f6f0593ac3cea3f63e989c86c4",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "38e3e5661cd3d17ec208de460cb2d6d2567a89f6f0593ac3cea3f63e989c86c4",
+        "path": "/Users/bo/data/adp/investigations/physics_same_event_five_2026-08-16_v1/01_routes/r2_geometry/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "b5007edfed17c4fc37e4cbeb8e108ba873c8266a56b54f1ce5d4c3bdb986197b",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "b5007edfed17c4fc37e4cbeb8e108ba873c8266a56b54f1ce5d4c3bdb986197b",
+        "path": "/Users/bo/data/adp/investigations/physics_same_event_five_2026-08-16_v1/01_routes/r3_magnitude/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "6088fdc75c9950463ca3d94cc02389ac51d4f1ccc3ffd813c742a8a4a8f03e97",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "6088fdc75c9950463ca3d94cc02389ac51d4f1ccc3ffd813c742a8a4a8f03e97",
+        "path": "/Users/bo/data/adp/investigations/physics_same_event_five_2026-08-16_v1/01_routes/r4_hypocenter/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "fc8402983b10e2b9c34822e54fc9e856aadfd2db1075160e0ab6be03194b27d1",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "fc8402983b10e2b9c34822e54fc9e856aadfd2db1075160e0ab6be03194b27d1",
+        "path": "/Users/bo/data/adp/investigations/physics_same_event_five_2026-08-16_v1/01_routes/r5_calendar/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "d82f1bb69f3ce337e11ac92d5a0a93446cee3c4d71f5a2f24d4d35fcf5abb2db",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "d82f1bb69f3ce337e11ac92d5a0a93446cee3c4d71f5a2f24d4d35fcf5abb2db",
+        "path": "/Users/bo/data/adp/investigations/physics_r4_handchecked_confirmation_2026-08-17_v1/RUN_LESSON_CLOSEOUT.json"
+      }
+    ],
+    "ledger": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/COLD_CASE_LEDGER.csv",
+    "ledger_row_sha256": "1952db22a87b0d515e7a45f3c5c0f58065c7b485b0b27e15c362ed80c7b2b9ed",
+    "ledger_sha256": "43f656121adc1a155d92f579711f8d98f623876d7d1ed0a2c82019c140c28afe",
+    "semantic_adjudication": {
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/09_live_reverification/LIVE_EDIT_SEMANTIC_ADJUDICATION_V2.md",
+      "sha256": "858787a6d4dcd7b10913735756bf3646fa3e731f7071c84f956f54aba34efa9c"
+    },
+    "v1_final_receipt": {
+      "bytes": 2045,
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/02_case_verification_final/PHY-03.json",
+      "sha256": "f5e2643fecc9b1c78d1b24c7fe457bbe7c7a697f6cbc25186030b1d95d1421ae"
+    }
+  },
+  "verdict": "ACCEPTED"
+}
